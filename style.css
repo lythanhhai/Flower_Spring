@@ -242,7 +242,14 @@ body {
   /* background-color: rgb(255, 251, 0); */
   border-radius: 50%;
   filter: blur(0.2vmin);
-  animation: light-ans 4s linear infinite backwards;
+  animation: light-ans 6s linear infinite backwards;
+}
+
+.Text 
+{
+  color: white;
+  margin: 20px auto;
+  text-align: center;
 }
 
 /* .flower__light:nth-child(odd) {
@@ -252,6 +259,7 @@ body {
 .flower__light span:nth-child(odd)
 {
   color: rgb(244,67,54);
+  cursor: pointer;
 }
 
 .flower__light span:nth-child(even)
